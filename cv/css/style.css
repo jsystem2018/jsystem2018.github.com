@@ -61,3 +61,19 @@
 		}
 
 }	
+
+fieldset{
+ margin-top: 10px;
+	
+}
+legend{
+
+	border: solid 1px black;
+	padding: 5px;
+	padding-right: 5px;
+		font-weight: bold;
+		border-radius: 20px;
+		background: rgb(139, 139, 211);
+	
+
+}
