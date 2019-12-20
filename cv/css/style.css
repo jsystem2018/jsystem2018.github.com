@@ -26,7 +26,7 @@
 	@keyframes banner {
 
 		0%, 20%{
-			background-image: url(../imagen/yo1.jpg);
+			background-image: url(/imagen/yo1.jpg);
 			opacity: 1;
 		}
 		21%, 24%{
