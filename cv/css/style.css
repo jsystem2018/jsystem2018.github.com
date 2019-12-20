@@ -34,7 +34,7 @@
 		}
 		
 		25%, 45%{
-			background-image: url(../imagen/a.jpg);
+			background-image: url(/imagen/a.jpg);
 			opacity: 1;
 		}
 		46%, 49%{
@@ -42,21 +42,21 @@
 		}
 		
 		50%, 70%{
-			background-image: url(../imagen/b.jpg);
+			background-image: url(/imagen/b.jpg);
 			opacity: 1;
 		}
 		71%, 74%{
 			opacity: 0.1;
 		}
 		75%, 95%{
-			background-image: url(../imagen/c.jpg);
+			background-image: url(/imagen/c.jpg);
 			opacity: 1;
 		}
 		96%, 99%{
 			opacity: 0.1;
 		}
 		100%, 120%{
-			background-image: url(../imagen/d.jpg);
+			background-image: url(/imagen/d.jpg);
 			opacity: 1;
 		}
 
