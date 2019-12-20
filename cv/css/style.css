@@ -1,3 +1,63 @@
 .pacifico{
 	font-family:'pacifico',cursive;
 }
+
+.banner{
+
+	width: 300px;
+	height: 400px;
+	border: 3px  solid black;
+	margin: auto;
+
+	border-radius: 20px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 40px;
+
+	
+
+	background-size: 100% 100%;
+
+	animation: banner 10s infinite;
+}
+
+	@keyframes banner {
+
+		0%, 20%{
+			background-image: url(../imagen/yo1.jpg);
+			opacity: 1;
+		}
+		21%, 24%{
+			opacity: 0.1;
+		}
+		
+		25%, 45%{
+			background-image: url(../imagen/a.jpg);
+			opacity: 1;
+		}
+		46%, 49%{
+			opacity: 0.1;
+		}
+		
+		50%, 70%{
+			background-image: url(../imagen/b.jpg);
+			opacity: 1;
+		}
+		71%, 74%{
+			opacity: 0.1;
+		}
+		75%, 95%{
+			background-image: url(../imagen/c.jpg);
+			opacity: 1;
+		}
+		96%, 99%{
+			opacity: 0.1;
+		}
+		100%, 120%{
+			background-image: url(../imagen/d.jpg);
+			opacity: 1;
+		}
+
+}	
